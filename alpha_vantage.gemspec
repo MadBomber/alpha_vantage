@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "alphavantage/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "alphavantage"
+  spec.name          = "alpha_vantage"
   spec.version       = Alphavantage::VERSION
-  spec.authors       = ["Adrian Teh"]
-  spec.email         = ["ateh.dev@gmail.com"]
+  spec.authors       = ["Dewayne VanHoozer", "Adrian Teh"]
+  spec.email         = ["dvanhoozer@gmail.com", "ateh.dev@gmail.com"]
 
   spec.summary       = "Ruby library for Alpha Vantage API"
   spec.description   = "Ruby library for the Alpha Vantage API, a leading provider of stock APIs as well as forex (FX) and cryptocurrency data feeds."
